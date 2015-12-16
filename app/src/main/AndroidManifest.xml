@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.parakh.attendance_register" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Subject1"
+            android:label="@string/title_activity_subject1" >
+            <intent-filter>
+                <action android:name="com.example.parakh.attendance_register.Subject1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Subject2"
+            android:label="@string/title_activity_subject2" >
+            <intent-filter>
+                <action android:name="com.example.parakh.attendance_register.Subject2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Subject3"
+            android:label="@string/title_activity_subject3" >
+            <intent-filter>
+                <action android:name="com.example.parakh.attendance_register.Subject3" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Subject4"
+            android:label="@string/title_activity_subject4" >
+            <intent-filter>
+                <action android:name="com.example.parakh.attendance_register.Subject4" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Subject5"
+            android:label="@string/title_activity_subject5" >
+            <intent-filter>
+                <action android:name="com.example.parakh.attendance_register.Subject5" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Lab1"
+            android:label="@string/title_activity_lab1" >
+            <intent-filter>
+                <action android:name="com.example.parakh.attendance_register.Lab1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Lab2"
+            android:label="@string/title_activity_lab2" >
+            <intent-filter>
+                <action android:name="com.example.parakh.attendance_register.Lab2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Lab3"
+            android:label="@string/title_activity_lab3" >
+            <intent-filter>
+                <action android:name="com.example.parakh.attendance_register.Lab3" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
